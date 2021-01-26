@@ -1,0 +1,60 @@
+.Header-Container
+{height: 50rem;
+    padding: 2rem;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+    display: flex;
+    margin-top: -6rem;
+    z-index: -2;
+
+    background: url(https://sgfinancialinc.com/wp-content/uploads/2016/10/life-insurance.jpg);
+    span {
+    z-index: -10;
+    // background-color: rgb(7, 37, 13);
+
+    margin-left: -20px;
+    }
+    img{
+    width: 100%;
+    background-size: cover;
+
+    z-index: -11;
+    opacity: 0.8;
+    background-color: rgb(26, 4, 4);
+        }
+        h1{
+            font-size: 40px !important;
+        }
+
+}
+
+
+
+.cardTitle{
+width: 35rem;
+color: #afe4a9;
+text-shadow: 2px 3px  2px #349A46;
+opacity: 0.8;
+font-size: 2rem;
+b{
+    color: #FF6600;
+}
+}
+
+.wraperkiri {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 12rem;
+
+    .cardCrausel {
+        width:40rem;
+        border: 2px solid #fff;
+        border-radius: 10px ;
+        background-color: cadetblue;
+        img{
+            border-radius: 10px;
+        }
+    }
+}
