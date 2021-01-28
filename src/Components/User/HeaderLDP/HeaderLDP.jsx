@@ -13,7 +13,7 @@ export const HeaderLDP = () => {
   return (
     <div className="Header-Container">
       <MDBRow>
-        <MDBCol className="wraperkiri mb-5" lg="6" md="6">
+        <MDBCol className="wraperkiri  mb-5" lg="6" md="6">
           <div className="cardTitle pl-3">
             <h1>
               Temukan Solusi Perlindungan <b>TERBAIK</b> kami
@@ -42,7 +42,7 @@ export const HeaderLDP = () => {
                   <MDBView>
                     <img
                       className="d-block w-100"
-                      src="https://www.equity.co.id/sites/default/files/pictures/Website.png"
+                      src="https://www.equity.co.id/sites/default/files/styles/slide_front__1024x440_/public/field/image/covid-19-care-desktop.jpg?itok=frDy_45f"
                       alt="Second slide"
                     />
                   </MDBView>
@@ -51,7 +51,8 @@ export const HeaderLDP = () => {
                   <MDBView>
                     <img
                       className="d-block w-100"
-                      src="https://www.equity.co.id/sites/default/files/styles/slide_front__1024x440_/public/field/image/covid-19-care-desktop.jpg?itok=frDy_45f"
+                      src="https://www.equity.co.id/sites/default/files/pictures/Website.png"
+                    
                       alt="Third slide"
                     />
                   </MDBView>

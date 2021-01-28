@@ -1,0 +1,141 @@
+.Header-Sec-Wrap {
+background: #fff;
+height: 40rem;
+margin: 0px 0px 4rem 0px ;
+display: flex;
+padding: 2rem 4rem;
+justify-content: space-between;
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(65, 68, 68, 0.384);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 1;
+    border-radius: 30px;
+    span{
+        color: #fff;
+        z-index: 11;
+        opacity: 1;
+        h1{font-size: 64px;
+        text-shadow: 5px 5px 20px rgb(87, 87, 86);}
+        // background-color: red;
+    }
+}
+
+.cardKiri {
+    // background: blue;
+    border-radius: 30px;
+    display: flex;
+    width: 50%;
+    .kiriCard {
+        background-color: aqua;
+        -webkit-border-radius: 30px;
+        
+        width: 100%;
+        margin: 1rem;
+        background-image: url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .kiriCard:hover  {
+        transform: rotate(2deg);
+      
+    }
+    .kiriCard span:hover{
+        transform: rotate(-2deg);
+
+    }        
+
+}
+
+ .cardKanan{
+    //  background: red;
+     width: 50%;
+
+     .kananAtas{
+         display: flex;
+         height: 50%;
+         padding: 0px 1rem;
+
+        .KananAtasKiri{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: blue;
+         width: 50%;
+         height: 100%;
+         margin: 1rem;
+         border-radius: 30px;
+         background-image: url(https://images.unsplash.com/photo-1576766125468-a5d48274c5b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=996&q=80);
+         background-repeat: no-repeat;
+         background-size: cover;
+        h1{
+            font-size: 32px;
+        }
+        }
+
+        .KananAtasKanan {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            width: 50%;
+            height: 100%;
+            margin: 1rem;
+            border-radius: 30px;
+            background-image: url(https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+            h1{
+                font-size: 32px;
+            }
+        }
+
+    .KananAtasKanan:hover, .KananAtasKiri:hover  {
+        transform: rotate(1deg);
+      
+    }
+    .KananAtasKiri span:hover ,.KananAtasKanan span:hover{
+        transform: rotate(-1deg);
+
+    }    
+    }
+
+    .kananBawah{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        height: 35%;
+      
+        border-radius: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .carousel{
+            height: 120%;
+            border-radius: 30px;
+            margin-top: 2rem;
+            background-color: inherit;
+            .carousel-inner {border-radius: 30px;}
+            img{border-radius: 30px;}
+            ol{margin: 0rem;}
+        }
+       .carousel:hover{
+           height: 110%;
+           margin-top: 6rem !important;
+       }
+    }
+
+    .kananBawah:hover{
+        
+        margin-top: 0px;
+    }
+ }
+
+}

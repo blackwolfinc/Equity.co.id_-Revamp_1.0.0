@@ -1,0 +1,29 @@
+.Berita-Wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction:  column;
+    height: 46rem;
+    
+
+    .BeritaAtas {
+        width: 100%;
+        background-color: red;
+        height: 60%;
+        padding: 3rem;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BeritaBawah {
+        width: 100%;
+        background-color: blue;
+        height: 20%;
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

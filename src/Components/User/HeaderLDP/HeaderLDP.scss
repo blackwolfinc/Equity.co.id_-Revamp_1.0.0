@@ -1,5 +1,6 @@
 .Header-Container
-{height: 50rem;
+{   width: auto;
+    height: 50rem;
     padding: 2rem;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -44,9 +45,9 @@ b{
 
 .wraperkiri {
     display: flex;
-
     flex-direction: column;
     margin-top: 12rem;
+    margin-left: 6rem;
 
     .cardCrausel {
         width:40rem;

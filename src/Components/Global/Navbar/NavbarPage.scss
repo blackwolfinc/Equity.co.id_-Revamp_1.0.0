@@ -1,6 +1,4 @@
 .Navbar-Container {
-
-
     height: 3rem;
     margin: 0%;
     z-index: 9999;
@@ -19,5 +17,14 @@
     .carousel{
         background-color: cadetblue !important;
     }
+
+    input{
+        background: none;
+        color: #ffffff;
+        border: 2px solid #ffff;
+        
+       
+    }
+    .fa-search{color: #5f9490;}
 }
 
